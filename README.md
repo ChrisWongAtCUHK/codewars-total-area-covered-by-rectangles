@@ -1,0 +1,1 @@
+# [Total area covered by rectangles](https://www.codewars.com/kata/55dcdd2c5a73bdddcb000044/solutions/csharp)
