@@ -7,9 +7,9 @@ public class Tests
     {
     }
 
-    [Test]
-    public void Test1()
+    [Test, Order(1)]
+    public void ZeroRectangles()
     {
-        Assert.Pass();
+        Assert.That(Kata.Calculate(Enumerable.Empty<int[]>()), Is.EqualTo(0));
     }
 }
