@@ -36,4 +36,10 @@ public class Tests
     {
         Assert.That(Kata.Calculate(new[] { new[] { 0, 0, 1, 1 }, new[] { 0, 0, 2, 2 } }), Is.EqualTo(4));
     }
+
+    [Test, Order(6)]
+    public void ThreeRectangles()
+    {
+        Assert.That(Kata.Calculate(new[] { new[] { 3, 3, 8, 5 }, new[] { 6, 3, 8, 9 }, new[] { 11, 6, 14, 12 } }), Is.EqualTo(36));
+    }
 }
